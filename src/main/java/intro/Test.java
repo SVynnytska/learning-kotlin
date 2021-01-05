@@ -25,7 +25,8 @@ public class Test {
 
         }
 
-
+        ExtentionKt.lastChar("123");
+        ExtentionKt.repeat("123", 4);
 
     }
 }
