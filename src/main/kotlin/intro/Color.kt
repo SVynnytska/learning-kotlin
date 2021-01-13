@@ -2,8 +2,8 @@ package intro
 
 import intro.Color.*
 
-enum class Color {
-    RED, GREEN, BLUE, INDIGO, YELLOW, ORANGE
+enum class Color(val s: String) {
+    RED("r"), GREEN("g"), BLUE("b"), INDIGO("i"), YELLOW("y"), ORANGE("o");
 }
 
 fun getDescription(color: Color): String =

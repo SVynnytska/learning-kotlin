@@ -5,7 +5,7 @@ import static intro.Util.max;
 
 import java.io.IOException;
 
-public class Test {
+public class Main {
 
     public static void main(String[] args) {
         max(1, 2);
